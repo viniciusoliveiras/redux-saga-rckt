@@ -24,7 +24,7 @@ const Catalog: React.FC = () => {
 
   return (
     <main>
-      <h1>Catalog</h1>
+      <h1>Catálogo</h1>
 
       {catalog.map(({ id, price, title }) => (
         <article key={id}>
